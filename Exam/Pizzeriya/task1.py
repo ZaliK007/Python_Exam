@@ -1,24 +1,3 @@
-# class Main:
-#     def __init__(self):
-#         self.name = input('Выберите пиццу \n1 - Peperoni (20$) \n2 - Barbequ (25$) \n3 - Dari_morya (30$) \nВведите: ')
-#         self.nachinka = input('Выберите начинку \n1 - tomato (5$) \n2 - cheese (10$) \n3 - big testo (3$)'
-#                               '\n4 - small testo(5$) \nВведите: ')
-#
-#
-#
-# class Terminal(Main):
-#     def sort(self):
-#         return self.name, self.nachinka
-#
-#
-#
-# a = Terminal()
-# print(f'Ваша пицца {a.name} \n Ваша начинка {a.nachinka} \n Общая цена ', )
-# # b = Terminal()
-# # b.sort()
-
-
-
 class Main:
     def __init__(self):
         self.spisok_name = []
@@ -66,24 +45,6 @@ class Terminal(Main):
                 print(f'Цена начинки {self.pice_nachinka[1]}$')
             if m == '3':
                 print(f'Цена начинки {self.pice_nachinka[2]}$')
-
-        # for _ in self.name:
-        #     if _ == '1':
-        #         _ = self.price_name[0]
-        #     if _ == '2':
-        #         _ = self.price_name[1]
-        #     if _ == '3':
-        #         _ = self.price_name[2]
-        #
-        # for _ in self.nachinka:
-        #     if _ == '1':
-        #         _1 = self.pice_nachinka[0]
-        #     if _ == '2':
-        #         _1 = self.pice_nachinka[1]
-        #     if _ == '3':
-        #         _1 = self.pice_nachinka[2]
-        #     print('Общая цена: ', _ + _1, '$')
-
 
 
 a = Terminal()
