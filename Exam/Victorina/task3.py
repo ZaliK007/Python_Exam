@@ -8,4 +8,6 @@ def Victorina():
             print("правильный ответ")
         else:
             print("неправильный ответ")
+
+
 Victorina()
